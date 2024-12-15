@@ -1,0 +1,60 @@
+.taim{
+    background-color:rgb(121, 233, 255);
+    background-image: url(tami.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+body{
+    background-image:url(t.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dit{
+   margin: 250px;
+   text-align: center; 
+   color: #fff;   
+}
+.second{
+    background-image:linear-gradient(rgba(16,13,26,0.9),rgba(16,13,26,0.9)),url("rrt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ccs{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.input-group-text{
+    width: 50;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.item{
+    width: 23%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.item img{
+    width: 100%;
+    height: 259px;
+    transition: all 1s;
+}
+.img-container{
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-container:hover img{
+    transform: scale(1.2);
+}
